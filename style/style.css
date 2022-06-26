@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+header{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+.company_logo{
+    padding-right: 38%;
+}
+.menu{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start; 
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+}
+nav a{
+    text-decoration: none;
+}
+button{
+    padding: 10px 24px;
+    background: #EC0000;
+    border-radius: 25px;
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    margin-bottom: 0px;
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-size: 72px;
+    color: #00240F;
+}
+div h2{
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 58px;
+    color: #00240F;
+}
+#ord{
+    font-size: 29px;
+}
+.op_pizz{
+    position: absolute;
+    margin-left: -120px;
+}
+.wrapper{
+    margin-left: 90px;
+}
+.recom_asort{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    font-size: 36px;
+}
+.asort{
+    border: 1px solid #BDBDBD;
+    border-radius: 180px 180px 30px 30px;
+    box-shadow: -10px 20px 40px -1px rgba(0, 0, 0, 0.2);
+    width: 290px;
+    height: 530px;
+    margin: 0px 20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-self: center;
+} 
+p{
+    text-align: center;
+    font-family: 'Fira Sans';
+    color: #333333;
+    font-weight: 300;
+    font-size: 16px;
+}
+.description_pizza{
+    margin-top: -15px;
+}
+.name_pizza{
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    margin-top: -40px;
+}
+.pizza_photo{
+    margin-left: -20px;
+}
+.price{
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    font-size: 24px;
+    color: #05A84B;
+    margin-top: 21px;
+}
+.size_pizza{
+    margin: 0px 23.5px;
+    display: flex;
+    width: 243px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #4F4F4F;
+    border-radius: 25px;
+    padding: 0px 16px;
+}
+.buy_pizza{
+    margin: 10px 23.5px;
+}
+
