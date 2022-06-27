@@ -95,8 +95,6 @@ div h2{
     margin: 0px 20px;
     display: flex;
     flex-flow: column wrap;
-    justify-content: start;
-    align-self: center;
 } 
 p{
     text-align: center;
@@ -138,5 +136,35 @@ p{
 }
 .buy_pizza{
     margin: 10px 23.5px;
+}
+.parts1{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: -150px;
+    transform: matrix(0.05, -1, -1, -0.05, 0, 0);
+}
+.parts2{
+    position: absolute;
+    margin: 480px 0px 0px 580px;
+}
+.parts3{
+    position: absolute;
+    margin: -10px 0px 0px -860px;
+}
+.reco{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.last_part{
+    width: 100%;
+}
+.parts4{
+    position: absolute;
+    margin: -80px -120px;
+}
+.parts5{
+    position: absolute;
+    margin: -24px 0px 0px 1550px;
 }
 
