@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
+    overflow-x: hidden;
 }
 header{
     min-height: 100px;
@@ -146,6 +147,7 @@ p{
 .parts2{
     position: absolute;
     margin: 480px 0px 0px 580px;
+    
 }
 .parts3{
     position: absolute;
@@ -157,14 +159,17 @@ p{
     width: 100%;
 }
 .last_part{
+    height: 180px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-.parts4{
+.last_part4{
     position: absolute;
-    margin: -80px -120px;
-}
-.parts5{
+    margin-left: -150px;
+} 
+.last_part5{
     position: absolute;
-    margin: -24px 0px 0px 1550px;
+    margin-left: -89px;
+    transform: matrix(-1, -0.06, -0.06, 1, 0, 0);
 }
-
